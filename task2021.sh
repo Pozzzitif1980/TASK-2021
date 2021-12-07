@@ -2,7 +2,7 @@
 
 set -e
 
-echo 'author - pozzzzitif1980'
+echo 'author - pozzzitif1980'
 ps -eo pcpu | sed 1d |  awk '{s+=$0}END{print "cpu:" s "%"}'
  
 
