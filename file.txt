@@ -1,0 +1,60 @@
+{
+  "author": "pozzzitif1980",
+  "CPU": "36.5%",
+  "free_disk_space": "191376M",
+  "generated_date": "2021-12-14 16:27:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "41.7%",
+  "free_disk_space": "191375M",
+  "generated_date": "2021-12-14 16:30:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "58.4%",
+  "free_disk_space": "191376M",
+  "generated_date": "2021-12-14 16:33:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "54.6%",
+  "free_disk_space": "191376M",
+  "generated_date": "2021-12-14 16:36:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "54.8%",
+  "free_disk_space": "191376M",
+  "generated_date": "2021-12-14 16:39:02"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "74.5%",
+  "free_disk_space": "191356M",
+  "generated_date": "2021-12-14 16:42:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "62.7%",
+  "free_disk_space": "191335M",
+  "generated_date": "2021-12-14 16:45:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "52.3%",
+  "free_disk_space": "191335M",
+  "generated_date": "2021-12-14 16:48:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "48.6%",
+  "free_disk_space": "191335M",
+  "generated_date": "2021-12-14 16:51:01"
+}
+{
+  "author": "pozzzitif1980",
+  "CPU": "46.1%",
+  "free_disk_space": "191334M",
+  "generated_date": "2021-12-14 16:54:01"
+}
