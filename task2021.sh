@@ -2,16 +2,16 @@
 
 set -e
 
-echo 'author - pozzzzitif1980'
+a=pozzzitif1980   
 
-ps -eo pcpu | sed 1d |  awk '{s+=$0}END{print "cpu:" s "%"}'
- 
-df -h | awk '$NF=="/"{printf "free_disk_space - " $4}'
-
-echo ""
-
-D=$(date +%Y-%m-%d)
-T=$(date +%H:%M:%S)
+b=$(ps -eo pcpu | sed 1d |  awk '{s+=$0}END{print s "%"}')
 	
-echo  "generated_date:""$D" "$T"
+c=$(df -BM | awk '$NF=="/"{printf $4"\n"}')
+	
+d=$(date +%Y-%m-%d\ \%H:%M:%S)
+
+jq -n --arg a "$a" '{author: $a}' 
+jq -n --arg b "$b" '{CPU: $b}' 
+jq -n --arg c "$c" '{free_disk_space: $c}' 
+jq -n --arg d "$d" '{generated_date: $d}'  
 
