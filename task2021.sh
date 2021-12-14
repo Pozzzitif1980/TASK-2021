@@ -10,8 +10,4 @@ c=$(df -BM | awk '$NF=="/"{printf $4"\n"}')
 	
 d=$(date +%Y-%m-%d\ \%H:%M:%S)
 
-jq -n --arg a "$a" '{author: $a}' 
-jq -n --arg b "$b" '{CPU: $b}' 
-jq -n --arg c "$c" '{free_disk_space: $c}' 
-jq -n --arg d "$d" '{generated_date: $d}'  
-
+jq -n --arg a "$a" --arg b "$b" --arg c "$c" --arg d "$d" '{author: $a, CPU: $b, free_disk_space: $c, generated_date: $d }' 
