@@ -1,1 +1,1 @@
-*/3 * * * * /home/pozzzitif1980/vagrant_getting_started/task2021.sh >> /home/pozzzitif1980/vagrant_getting_started/file.txt
+*/3 * * * * /home/pozzzitif1980/vagrant_getting_started/task2021.sh >> /home/pozzzitif1980/vagrant_getting_started/file.json
